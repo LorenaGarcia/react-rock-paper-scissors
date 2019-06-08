@@ -1,0 +1,108 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.title-header {
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.49);
+  margin-bottom: 30px;
+}
+
+.button {
+  background: rgba(14, 83, 129, 1);
+  border-radius: 100px;
+  border-color: rgb(13, 49, 73);
+  border: 3px;
+  width: 200px;
+  height: 200px;
+  color: white;
+  margin-left: 10px;
+  outline:none;
+}
+
+.button:hover, image-button:hover {
+  background: rgba(134, 182, 245, 0.432);
+}
+
+.image-button{
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+}
+
+.options, .results {
+  display: flex;
+  justify-content: center;
+}
+
+.results {
+  margin-bottom: 20px;
+  margin-top: 50px;
+  background: rgb(200, 200, 206);
+  height: 150px;
+  box-shadow: 8px 8px rgba(65, 67, 68, 0.938);
+}
+
+table,  td {
+  color: black;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  margin-top: 25px;
+}
+
+th {
+  width: 30px;
+}
+
+.results-number{
+  font-size: calc(30px + 4vmin);
+}
+
+
+.line{
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 300px;
+  height: 20px;
+  border-bottom: 3px solid rgb(119, 112, 112);
+  }
+
+  .image-timeline{
+    width: 50px;
+    height: 50px;
+  }
+
+  .div1{
+    width: 100px;
+    height: 60px;
+    display: inline-block;
+    text-align: left;
+  }
+  .div2{
+    height: 10px;
+    border-bottom: 3px solid rgba(14, 83, 129, 1);
+    width: 400px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px
+  }
+  .div3{
+    width: 100px;
+    height: 10px;
+    display: inline-block;
+  }
+
+  .timeline {
+    margin-top: 80px;
+    text-align:center;
+  }
+
+  .counter {
+    color: rgb(200, 200, 206);
+  }
